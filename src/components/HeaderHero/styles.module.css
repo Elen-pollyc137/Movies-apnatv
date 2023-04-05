@@ -1,0 +1,77 @@
+.container {
+  width: 30rem;
+  height: 26rem;
+  margin: 1rem 2rem;
+  color: beige;
+  background-color: transparent;
+}
+
+.box_title {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  line-height: 0.5px;
+}
+h1 {
+  height: auto;
+  font-weight: 700;
+  font-size: 90px;
+
+  color: #ffffff;
+}
+h2 {
+  font-weight: 700;
+  font-size: 50px;
+
+  /* identical to box height */
+
+  color: #ffffff;
+}
+p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+
+  /* or 27px */
+
+  color: #ffffff;
+
+  opacity: 0.9;
+}
+.box_svg {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+.box_star {
+  height: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.box_button button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 1rem;
+  border: 1px solid red;
+  height: 3rem;
+  width: 13rem;
+  background: #fa4776;
+  border-radius: 41px;
+
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 23px;
+  /* identical to box height */
+
+  letter-spacing: 0.04em;
+  color: #ffffff;
+
+  transition: 0.2s ease;
+}
+.box_button button:hover {
+  background-color: transparent;
+  color: #fa4776;
+  border: 1px solid #fa4776;
+}
