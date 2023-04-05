@@ -47,14 +47,13 @@ p {
 
   display: flex;
   align-items: center;
-  justify-content: start;
 }
 .box_button button {
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 1rem;
-  border: 1px solid red;
+
   height: 3rem;
   width: 13rem;
   background: #fa4776;

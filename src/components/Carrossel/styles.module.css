@@ -2,7 +2,7 @@
   width: 80%;
   max-width: 56rem;
   margin: 0 auto;
-  margin-top: -3rem;
+
   height: auto;
   display: flex;
   align-items: center;
@@ -33,9 +33,4 @@
 .box_carrossel {
   cursor: pointer;
   overflow: hidden;
-}
-.box_button button {
-  border: 1px solid red;
-  height: 4rem;
-  width: 10rem;
 }
